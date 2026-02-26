@@ -35,7 +35,7 @@ const consumeMessages = async () => {
 // Run both produce and consume functions
 const run = async () => {
   // Produce a message
-  // await produceMessage();
+  await produceMessage();
 
   // Consume messages (will keep listening until stopped)
   await consumeMessages();
