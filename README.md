@@ -41,7 +41,7 @@ Kafka requires Java to run properly.
 2. Create a database named `enliven`.
 3. Create a `users` table with the following structure:
    ```sql
-   CREATE DATABASE IF NOT EXISTS enliven;
+   CREATE DATABASE IF NOT EXISTS lxm;
    USE enliven;
 
    CREATE TABLE IF NOT EXISTS users (
