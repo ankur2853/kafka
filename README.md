@@ -38,11 +38,11 @@ Kafka requires Java to run properly.
 
 ### 3. Database Setup
 1. Ensure your MySQL server is running on `localhost` without a password for the `root` user (as configured in `database.js`, or update `database.js` with your credentials).
-2. Create a database named `enliven`.
+2. Create a database named `lxm`.
 3. Create a `users` table with the following structure:
    ```sql
    CREATE DATABASE IF NOT EXISTS lxm;
-   USE enliven;
+   USE lxm;
 
    CREATE TABLE IF NOT EXISTS users (
        id INT AUTO_INCREMENT PRIMARY KEY,
